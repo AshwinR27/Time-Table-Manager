@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="119dp"
+        android:fontFamily="serif"
+        android:text="Hello Teacher !!!"
+        android:textAlignment="viewStart"
+        android:textColor="#FF6E40"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="118dp"
+        android:layout_height="114dp"
+        android:text="🧑‍🏫"
+        android:textColor="#000000"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="453dp"
+        android:layout_height="205dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img" />
+
+    <HorizontalScrollView
+        android:layout_width="390dp"
+        android:layout_height="430dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/KKM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Kavitha\nMahesh\n(KKM)"
+                    android:textColor="#FF6E40" />
+
+                <Button
+                    android:id="@+id/ANS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Anusha\nS\n(ANS)"
+                    android:textColor="#FF6E40" />
+
+                <Button
+                    android:id="@+id/AJB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Anil J\nBose\n(AJB)"
+                    android:textColor="#FF6E40" />
+
+                <Button
+                    android:id="@+id/SGP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Sunitha\nG\n(SGP)"
+                    android:textColor="#FF6E40" />
+
+                <Button
+                    android:id="@+id/JSK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Jaishma\nKumari\n(JSK)"
+                    android:textColor="#FF6E40" />
+
+                <Button
+                    android:id="@+id/SDR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Supreetha\nD R\n(SDR)"
+                    android:textColor="#FF6E40" />
+
+                <Button
+                    android:id="@+id/CJK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Calvin\nJ Kumar\n(CJK)"
+                    android:textColor="#FF6E40" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/MDS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Melwyn\nD'souza\n(MDS)"
+                    android:textColor="#FF6E40" />
+
+                <Button
+                    android:id="@+id/PRT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="PRASHANT\nRATHODE\n(PRT)"
+                    android:textColor="#FF6E40" />
+
+                <Button
+                    android:id="@+id/MRJ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Merlin\nJoseph\n(MRJ)"
+                    android:textColor="#FF6E40" />
+
+                <Button
+                    android:id="@+id/KRK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Karthik\nK\n(KRK)"
+                    android:textColor="#FF6E40" />
+
+                <Button
+                    android:id="@+id/RKS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Rakshita\n(RSK)"
+                    android:textColor="#FF6E40" />
+
+                <Button
+                    android:id="@+id/ASM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Ashwin\nShenoy M\n(ASM)"
+                    android:textColor="#FF6E40" />
+
+                <Button
+                    android:id="@+id/PJM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#1AFF6E40"
+                    android:text="Prajna M\n(PJM)"
+                    android:textColor="#FF6E40" />
+
+
+            </TableRow>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
